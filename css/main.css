@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,300,400,500,700');
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Indie Flower';
+}
+p,li,ul {
+	font-family: 'Nunito';
+}
+html, body {padding: 0; margin: 0;}
+.logo {
+	padding-top: 20px;
+	padding-left: 20px;
+	color: white;
+	text-decoration:none;
+	font-size: 40px;
+    font-family: 'Nunito';
+}
+span {
+    font-style: bold;
+    font-weight: 700;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999;
+}
+
+li {
+    float: left;
+    -webkit-transition: background 0.4s; /* Safari */
+    transition: background 0.4s;
+}
+
+a li {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #555;
+}
+.frounded {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.erounded {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+li {
+    border-right: 1px solid #bbb;
+    padding-left: 8px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:8px;
+    color: white;
+}
+li.active {
+        background-color: #555;
+}
+li:hover {
+    color: white;
+    font-style:bold;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+ul {
+    right:8px;
+    position: fixed;
+    top: 8px;
+    width: auto;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+#header { border-bottom: 1px solid #333; color: white; background: #333; position:fixed; top: 0; right:0; left:0;}
+#content {background: #e9e9e9; height: 100vh;width: 100%; padding-top:0; margin-top:0;}
